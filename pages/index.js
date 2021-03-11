@@ -1,7 +1,9 @@
 export default function IndexPage() {
   return (
-    <div>
+    <>
       <p>Hello, eStore!</p>
-    </div>
+      <code>variable</code>
+      <p>I am a child of the Page component.</p>
+    </>
   );
 }
